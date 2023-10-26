@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Balthazar&family=EB+Garamond:wght@500&family=Montserrat&family=Playfair+Display&family=Ubuntu&display=swap');
+body {
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5%;
+  height: 45px;
+}
+header::before{
+    content: "";
+    background: url("bg_image2.jpg")no-repeat ;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+.navbar, .navbars{
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.navbar{
+  height: 34px;
+}
+.nav-item{
+  list-style-type: none;
+  margin: 10px;
+  padding: 0px;
+  font-size: 1.2rem;
+}
+.nav-tags{
+  padding: 10px;
+  transition: 0.4s;
+}
+.nav-tags:hover{
+  cursor: pointer;
+  color: red;
+  border-radius: 25px;
+  background-color: yellow;
+}
+
+.nav-tags, a{
+  text-decoration: none;
+  color: black;
+}
+.name{
+    font-family: 'EB Garamond', serif;
+    font-size: 1.7rem; 
+    transition: 0.4s;
+  }
+.name:hover{
+  color: rgb(106, 71, 171);
+}  
+  /* main section */
+  /* section{
+    margin: 0px 20px;
+    padding: 10px;
+    padding-top: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  } */
+.main{
+  display: flex;
+}
+.main2{
+  color: black;
+  font-size: 3.0rem;
+}
+.main_div{
+  margin: 40px;
+}
+.main_img{
+  margin-left: 135px;
+}
+.image{
+  width: 200px;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(15deg);
+  height: 400px;
+}
+.btn{
+  height: 30px;
+  width: 120px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.btn_ios{
+  background-color: rgb(99, 99, 99);
+  color: blanchedalmond;
+}
+button:hover{
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  margin: 4px;
+}
+/* hr tag */
+hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-style: none;
+  border-top-style: dotted ;
+  border-color: gray ;
+  border-width: 5px;
+  width: 5%;
+}
+/* Festure */
+.web_feature{
+  background-color: white;
+  margin: 0px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.feat{
+  height: 350px;
+  color: black;
+  /* background-color: whitesmoke; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  margin-top: 0;
+  width: 25%;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.5s;
+}
+.icon{
+  padding: 5px;
+  margin: 8px;
+  font-size: 45px;
+  color: rgb(89, 68, 208);
+  margin-top: 90px;
+  margin-bottom: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feat:hover{
+  background-color: rgb(198, 197, 205);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.para{
+  padding: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.about{
+  background-color: rgb(127, 93, 158);
+}
+.img2{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+  transform: rotate(15deg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+.img_2{
+  transform: rotate(-15deg);
+}
+.about_div{
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ram_text{
+  color: azure;
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  font-family: serif;
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(169, 153, 153, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+.testimonial{
+  background-color: beige;
+  padding: 30px;
+  text-align: center;
+}
+.head_text{
+  font-size: 40px;
+}
+.testimonial img{
+  width: 60px;
+  margin: 10px;
+  padding: 10px;
+}
+.testimonial p{
+  font-size: 25px;
+  font-family: serif;
+  padding: 30px;
+  padding-top: 10px;
+  margin: 30px;
+}
+
+
+/* footer */
+footer{
+  background-color: rgb(35, 34, 34);
+  height: 250px;
+}
+
+footer div{
+  display: flex;
+  justify-content: center;
+}
+
+footer .btn{
+  margin-top: 40px;
+}
+.footer_icon{
+  font-size: 40px;
+  padding: 10px;
+}
+.footer_icon2{
+  margin: 20px;
+}
+.footer_icon2:hover{
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.cc{
+  margin: 10px;
+  color: azure;
+}
+.same_icon{
+   color: aliceblue;
+}
